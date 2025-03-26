@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement | SMVEC</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+        .header {
+            background-color: #1565c0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            justify-content: end;
+            background-color: #0d47a1;
+            padding: 15px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            background-color: #1976d2;
+            border-radius: 5px;
+        }
+        .container2 {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #1e88e5;
+        }
+        span {
+            color: gold;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #1565c0;
+            border: 2px solid gold;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            transition: 0.3s ease;
+        }
+        .card:hover {
+            background-color: #1e88e5;
+            transform: scale(1.05);
+        }
+        .number {
+            font-size: 30px;
+            color: gold;
+        }
+        h1, h2 {
+            color: #0d47a1;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #1565c0;
+            color: white;
+        }
+        td a {
+            text-decoration: none;
+            color: #0d47a1;
+            font-weight: bold;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .recruiters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .recruiters img {
+            max-width: 150px;
+            margin: 15px;
+            transition: transform 0.3s;
+        }
+        .recruiters img:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #0d47a1;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Sri Manakula Vinayagar Engineering College - Placement Cell</div>
+
+    <div class="nav">
+        <a href="collage info.html">Home</a>
+      <a href="department.html">Departments</a>
+    </div>
+
+    <div class="container2">
+        <div class="section">
+            <h1>Placement Cell</h1>
+            <p>The Placement Cell of SMVEC ensures that students are placed in top organizations across various industries. Our training programs help students excel in technical and soft skills.</p>
+        </div>
+        <div class="section">
+            <h2>Recent Placements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Department</th>
+                        <th>Company</th>
+                        <th>Salary (LPA)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Subashri</td>
+                        <td>CSE</td>
+                        <td><a href="https://www.microsoft.com" target="_blank">Microsoft</a></td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Sangeetha</td>
+                        <td>IT</td>
+                        <td><a href="https://www.zohocorp.com/" target="_blank">Zoho</a></td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Mohana</td>
+                        <td>ECE</td>
+                        <td><a href="https://www.google.com" target="_blank">Google</a></td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Yamini</td>
+                        <td>Mechanical</td>
+                        <td><a href="https://www.tcs.com" target="_blank">TCS</a></td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Our Top Recruiters</h2>
+            <div class="recruiters">
+                <a href="https://www.tcs.com" target="_blank"><img src="D:\ip lab\ex3\Tata_Consultancy_Services_Logo-1.png" alt="TCS"></a>
+                <a href="https://www.infosys.com" target="_blank"><img src="infosys.png" alt="Infosys"></a>
+                <a href="https://www.wipro.com" target="_blank"><img src="D:\ip lab\ex3\wipro.png" alt="Wipro"></a>
+                <a href="https://www.accenture.com" target="_blank"><img src="accenture.png" alt="Accenture"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 Sri Manakula Vinayagar Engineering College. All rights reserved.</div>
+</body>
+</html>
