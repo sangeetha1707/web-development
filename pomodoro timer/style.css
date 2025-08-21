@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background: #f7f7f7;
+
+}
+
+#timer {
+  font-size: 4rem;
+  margin: 20px 600px;
+  
+}
+#timer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:300px;
+    width:300px;
+    border-radius: 50px;
+    background-color: #140503;
+    color:#f7f7f7;
+
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#start { background: #4CAF50; color: white; }
+#pause { background: #f39c12; color: white; }
+#reset { background: #e74c3c; color: white; }
